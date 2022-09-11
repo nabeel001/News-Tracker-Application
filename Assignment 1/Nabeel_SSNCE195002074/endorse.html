@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Skill Endorsement</title>
+  <link rel="icon" type="image/png" href="images\endorse.png">
+</head>
+
+<body>
+  <table cellspacing="15">
+    <tr>
+      <td><img src="images\endorse.png" alt="message" height="40" width="40"></td>
+      <td>
+        <h2>Endorse my skill</h2>
+      </td>
+    </tr>
+  </table>
+  <form action="mailto:nabeelhussainmn19074@it.ssn.edu.in?subject=Endorsement%20form" method="get" enctype="text/plain">
+    <table cellspacing="5px" cellpadding="5">
+      <tr>
+        <td><b>Skill:</b><br>
+          <input type="radio" name="Skill" id="CLang" value="C Language">
+          <label for="C Language">C Language</label><br>
+          <input type="radio" name="Skill" id="c++Lang" value="C++ Language">
+          <label for="C++ Language">C++ Language</label><br>
+          <input type="radio" name="Skill" id="webDev" value="Web Development">
+          <label for="Web Development">Web Development</label><br>
+          <input type="radio" name="Skill" id="graphDsgn" value="Graphic Designing">
+          <label for="Graphic Designing">Graphic Designing</label><br></td>
+      </tr>
+      <tr>
+        <td><label for="skillRating">Rate my Skill:</label></td>
+        <td><input type="range" name="skillRating" id="skillRate" value=""></td>
+      </tr>
+      <tr>
+        <td>Your view about my skill:</td>
+      </tr>
+    </table>
+    <textarea name="message" id="message" rows="8" cols="45"></textarea><br>
+    <input type="submit" name="" value="Submit">
+    <input type="reset" name="" value="Reset">
+  </form>
+</body>
+
+</html>
