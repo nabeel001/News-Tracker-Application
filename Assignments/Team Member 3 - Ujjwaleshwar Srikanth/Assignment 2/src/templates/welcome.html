@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Log In{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <h1>Welcome {{ g.username }}!</h1>
+  <p>You have successfully signed in</p>
+{% endblock %}
