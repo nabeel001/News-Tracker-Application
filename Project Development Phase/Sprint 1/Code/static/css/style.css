@@ -1,0 +1,218 @@
+body {
+  font-family: "Overpass", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333333;
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.landing {
+  margin-top: 100px;
+}
+
+#navbarToggle {
+  background-color: #000;
+}
+
+.navbar.navbar-dark .nav-item .nav-link {
+  color: #fff !important;
+  background-color: #000;
+}
+
+.navbar.navbar-dark .nav-item .nav-link:hover {
+  color: #fff !important;
+  background-color: #000;
+}
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar-nav {
+  background-color: #000;
+}
+
+.navbar-brand {
+  background-color: #000;
+}
+
+.lg {
+  background-color: #000;
+  font-size: xx-large;
+}
+
+h1 {
+  font-size: 33px;
+  color: #dfdcd9;
+}
+
+.heading {
+  color: red;
+  text-shadow: 2px 2px 10px #ff0000;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #dfdcd9;
+}
+
+.author {
+  font-size: 12px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.article-card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  color: #000;
+  background-color: rgb(0, 0, 0);
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.img {
+  width: 100%;
+}
+
+.image-fluid {
+  height: 18em;
+}
+
+.cardfooter {
+  padding: 0.75rem 1.25rem;
+  padding-bottom: 0px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.article_name {
+  color: #dfdcd9;
+}
+
+.source-body {
+  margin-bottom: 30px;
+}
+
+.source {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: #dd0000;
+}
+
+.logo {
+  color: #dd0000;
+  background-color: #000;
+}
+
+.svg {
+  background-color: #000;
+}
+
+.p-svg {
+  background-color: #26262a;
+}
+
+.footer {
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.footer-text {
+  background-color: #000;
+  margin-bottom: 0px;
+}
+
+.dropdown-menu {
+  background-color: #1e1e21;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #26262a;
+}
+
+.published {
+  background-color: #26262a;
+}
+
+.card-footer {
+  background-color: #26262a;
+}
+
+/* Pop-up preference form */
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 15px;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(46, 45, 45);
+  border-radius: 7px;
+}
+
+.form-container input[type="checkbox"] {
+  accent-color: red;
+  margin-left: 15px;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 49%;
+  display: inline;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.form-container .login-btn {
+  background-color: #04aa6d;
+}
+
+.form-container .cancel-btn {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
